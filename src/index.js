@@ -6,17 +6,17 @@ const PayNow = () => {
 
   // using browser fetch
   const RedirectToPaymentPage = () => {
-    fetch('/pay');
+    fetch('http://localhost:9000/pay');
   };
 
   // using axios library
   // const RedirectToPaymentPage = () => {
-  //   axios.get('/pay');
+  //   axios.get('http://localhost:9000/pay';
   // };
 
   // using browser redirect
   // const RedirectToPaymentPage = () => {
-  //   window.location.href = '/pay';
+  //   window.location.href = 'http://localhost:9000/pay';
   // };
 
   return (
