@@ -5,15 +5,10 @@ import axios from 'axios';
 
 const PayNow = () => {
 
-  // using browser fetch
-//  const RedirectToPaymentPage = () => {
-//    fetch('/pay');
-//  };
-//
-//   using axios library
-//   const RedirectToPaymentPage = () => {
-//     axios.get('/pay');
-//   };
+  // using axios library(xhr)
+  // const RedirectToPaymentPage = () => {
+  //   axios.post('/pay', { amount : '500' });
+  // };
 
   // using browser redirect
    const RedirectToPaymentPage = () => {
